@@ -3,32 +3,31 @@
     font-family: 'Poppins', sans-serif;
 }
 .main{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: #f5f6fb;
 }
 .left{
-    box-shadow: 5px 0px #f4f4f4;
+    border-right: 3px solid #f1f1f3;
     background: white;
     height: 100vh;
-    width: 220px;
+    width: 12vw;
     float: left;
 }
 .middle{
     float: left;
 }
 .right{
-    box-shadow: -5px 0px #f4f4f4;
+    border-left: 3px solid #f1f1f3;
     background: white;
     height: 100vh;
-    width: 320px;
+    width: 27vw;
     float: right;
-    background: white;
 }
 .header{
     float: left;
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-left: 2vw;
+    margin-top: 4vh;
     position: absolute;
 }
 .centre{
@@ -36,66 +35,65 @@
 }
 .TopBox{
     background: #f8e5e9;
-    height: 140px;
-    width: 930px;
+    height: 17vh;
+    width: 57vw;
     float: left;
-    margin-top: 70px;
-    margin-left: 30px;
-    border-radius: 10px;
+    margin-top: 12vh;
+    margin-left: 2vw;
+    border-radius: 15px;
 }
 .middleBox{
-    margin-left: 30px;
-    margin-top: 240px;
+    margin-left: 2vw;
+    margin-top: 33vh;
 }
 .LeftBox{
     float: left;
-    height: 350px;
-    width: 400px;
+    height: 45vh;
+    width: 25vw;
     background: white;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .RightBox{
     float: left;
-    height: 350px;
-    width: 500px;
+    height: 45vh;
+    width: 30vw;
     background: white;
-    border-radius: 10px;
-    margin-left: 30px;
+    border-radius: 15px;
+    margin-left: 31px;
 }
 .footer{
-    margin-left: 30px;
-    margin-top: 620px;
-    width: 930px;
+    margin-left: 2vw;
+    margin-top: 82vh;
+    width: 57vw;
 }
 .f-Header{
     float: left;
 }
 .courseBoxes{
     float: left;
-    height: 80px;
-    width: 930px;
-    margin-top: 20px;
+    width: 57vw;
+    margin-top: 3vh;
 }
 .course1{
     float: left;
     background: #4c4cac;
-    height: 80px;
-    width: 300px;
-    border-radius: 10px;
+    height: 10vh;
+    width: 18vw;
+    border-radius: 15px;
 }
 .course2{
-    margin-left: 15px;
+    margin-left: 1.5vw;
     float: left;
     background: #9396d1;
-    height: 80px;
-    width: 300px;
-    border-radius: 10px;
+    height: 10vh;
+    width: 18vw;
+    border-radius: 15px;
 }
 .course3{
-    margin-left: 15px;
+    margin-left: 1.5vw;
     float: left;
     background: #f0848f;
-    height: 80px;
-    width: 300px;
-    border-radius: 10px;
+    height: 10vh;
+    width: 18vw;
+    border-radius: 15px;
 }
