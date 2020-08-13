@@ -61,20 +61,10 @@
     color: black; 
     font-size: small;
 }
-.header{
-    float: left;
-    margin-left: 2vw;
-    margin-top: 4vh;
-    position: absolute;
-}
-.centre{
-    float: left;
-}
 .TopBox{
-    background: #f8e5e9;
+    background: #f7e5e9;
     height: 17vh;
     width: 57vw;
-    float: left;
     margin-top: 12vh;
     margin-left: 2vw;
     border-radius: 15px;
@@ -83,7 +73,7 @@
     width: 20vw;
     font-size: 18px;
     font-weight: bold;
-    color: #c08890;
+    color: #fc818c;
     padding-top: 4vh;
     padding-left: 3vw;
 }
@@ -101,7 +91,7 @@
 }
 .middleBox{
     margin-left: 2vw;
-    margin-top: 33vh;
+    margin-top: 3vh;
 }
 .LeftBox{
     float: left;
@@ -115,13 +105,13 @@
 }
 .LeftBoxBottom{
     font-size: small !important;
-    color: #c4c4c6;
+    color: #d0d0e1;
     margin-left: 1.55vw;
     width: 22vw;
     font-size: 2vh;
     padding: 3vh 0vh 2vh 0vh;
     float: left;
-    border-bottom: 1px #c4c4c6 solid;
+    border-bottom: 1px #f4f4f7 solid;
 }
 .lineDivison{
     font-size: small !important;
@@ -145,7 +135,7 @@
 }
 .footer{
     margin-left: 2vw;
-    margin-top: 82vh;
+    margin-top: 53.2vh;
     width: 57vw;
 }
 .f-Header{
