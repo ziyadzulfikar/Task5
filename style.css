@@ -30,24 +30,35 @@
     color: #6d6d6d;
 }
 .rightName{
-    margin-top: 25vh;
     text-align: center;
 }
 .rightSubject{
     font-size: small;
     color: #d9d8dc;
-    margin-left: 6vw;
-    margin-top: 3vh;
+    margin-left: 6.3vw;
+    margin-top: 2vh;
 }
 .rightReminders{
-    margin-top: 12vh;
+    margin-top: 25vh;
     margin-left: 2vw;
 }
 .rightTest{
     font-size: small;
     color: #d9d8dc;
-    margin-left: 4vw;
-    margin-top: 3vh; 
+    margin-left: 4.3vw;
+    margin-top: 2vh; 
+}
+.ReminderDivs{
+    width: 50px; 
+    height: 50px;
+    float: left; 
+    border-radius: 10px;
+    text-align: center;
+}
+.ReminderDivsText{
+    color: black; 
+    margin-left: 1vw; 
+    font-size: small;
 }
 .header{
     float: left;
@@ -68,6 +79,7 @@
     border-radius: 15px;
 }
 .TopBoxHead{
+    width: 20vw;
     font-size: 18px;
     font-weight: bold;
     color: #c08890;
@@ -75,9 +87,16 @@
     padding-left: 3vw;
 }
 .TopBoxText{
-    margin-left: 3vw;
     margin-top: 2vh;
+    margin-left: 3vw;
+    width: 25vw;
     font-size: 2vh;
+}
+.TopBoxImg{
+    margin-left: 8vw;
+    float: left;
+    width: 240px;
+    margin-top: -6.5vh;
 }
 .middleBox{
     margin-left: 2vw;
@@ -144,9 +163,10 @@
     border-radius: 15px;
 }
 .courseBox1{
-    font-size: 2vh;
+    line-height: 3vh;
+    padding-top: 2vh;
+    font-size: small;
     color: #8c8ce4;
-    padding-top: 2.5vh;
     padding-left: 5vw;
 }
 .course2{
@@ -158,9 +178,10 @@
     border-radius: 15px;
 }
 .courseBox2{
-    font-size: 2vh;
+    line-height: 3vh;
+    padding-top: 2vh;
+    font-size: small;
     color: #b3b6eb;
-    padding-top: 2.5vh;
     padding-left: 5vw;
 }
 .course3{
@@ -172,20 +193,22 @@
     border-radius: 15px;
 }
 .courseBox3{
-    font-size: 2vh;
+    line-height: 3vh;
+    padding-top: 2vh;
+    font-size: small;
     color: #fc9ea2;
-    padding-top: 2.5vh;
     padding-left: 5vw;
 }
 .CompanyName{
     margin-top: 4vh;
-    margin-left: 4vw;
+    margin-left: 1.5vw;
 }
 .options{
     margin-top: 10vh;
-    margin-left: 4vw;
+    margin-left: 2vw;
 }
 .EachOptions{
+    font-size: 2vh;
     margin-top: 6vh;
     color: #c4c4c6;
     cursor: pointer;
@@ -193,18 +216,28 @@
 .EachOptions:hover{
     font-weight: bold;
     color: black;
-    border-right: #959aa8 solid;
+    border-right: #7291f5 solid;
+}
+.EachOptions:hover i{
+    color: #7291f5;
 }
 .DashboardOption{
+    font-size: 2vh;
     font-weight: bold;
     color: black;
-    border-right: #959aa8 solid;
+    border-right: #7291f5 solid;
 }
 .LeftBottom{
-    border-radius: 15px;
+    float: left;
     margin-bottom: 1vh;
     margin-top: 13vh;
     margin-left: 1vw;
+    width: 10vw;
+    height: 23vh; 
+}
+.LeftBottomBgrnd{
+    float: left;
+    border-radius: 15px;
     width: 10vw;
     height: 23vh;
     background: #f5f6fa;
@@ -212,7 +245,7 @@
     font-size: 14px;
     text-align: center;    
 }
-.LeftBottom p{
+.LeftBottomBgrnd p{
     font-size: small;
     padding-top: 9vh;
 }
@@ -222,5 +255,6 @@
     background: #5e81f5;
     border-style: none;
     margin-top: 2vh;
-    padding: 13px 36px 13px 36px;
+    padding: 2vh 5vh 2vh 5vh;
+    cursor: pointer;
 }
