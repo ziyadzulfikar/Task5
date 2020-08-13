@@ -33,31 +33,32 @@
     text-align: center;
 }
 .rightSubject{
+    line-height: 2.5vh;
     font-size: small;
     color: #d9d8dc;
     margin-left: 6.3vw;
-    margin-top: 2vh;
 }
 .rightReminders{
     margin-top: 25vh;
     margin-left: 2vw;
 }
-.rightTest{
+.rightText{
+    float: left;
+    line-height: 3.5vh;
     font-size: small;
     color: #d9d8dc;
-    margin-left: 4.3vw;
-    margin-top: 2vh; 
+    margin-left: 1.5vw;
 }
 .ReminderDivs{
-    width: 50px; 
-    height: 50px;
+    width: 3vw; 
+    height: 6vh;
     float: left; 
     border-radius: 10px;
     text-align: center;
 }
 .ReminderDivsText{
+    line-height: 2.5vh;
     color: black; 
-    margin-left: 1vw; 
     font-size: small;
 }
 .header{
