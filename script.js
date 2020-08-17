@@ -1,18 +1,36 @@
 $(document).ready(function(){
+    $(".Resources").hide();
     $(".Classes").hide();
     $("#classBut").click(function(){
       $(".Dashboard").hide();
+      $(".Resources").hide();
       $(".Classes").show();
       $("#classBut").addClass("DashboardOption")
       $("#dashBut").removeClass("DashboardOption")
       $("#dashBut").addClass("EachOptions")
+      $("#resBut").removeClass("DashboardOption")
+      $("#resBut").addClass("EachOptions")
     });
     $("#dashBut").click(function(){
       $(".Dashboard").show();
+      $(".Resources").hide();
       $(".Classes").hide();
       $("#dashBut").removeClass("EachOptions")
       $("#dashBut").addClass("DashboardOption")
 
+      $("#resBut").removeClass("DashboardOption")
+      $("#resBut").addClass("EachOptions")
+      $("#classBut").removeClass("DashboardOption")
+      $("#classBut").addClass("EachOptions")
+    });
+    $("#resBut").click(function(){
+      $(".Resources").show();
+      $(".Dashboard").hide();
+      $(".Classes").hide();
+      $("#resBut").addClass("DashboardOption")
+
+      $("#dashBut").removeClass("DashboardOption")
+      $("#dashBut").addClass("EachOptions")
       $("#classBut").removeClass("DashboardOption")
       $("#classBut").addClass("EachOptions")
     });
