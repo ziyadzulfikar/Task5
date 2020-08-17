@@ -1,23 +1,31 @@
 $(document).ready(function(){
+    $(".Learning").hide();
     $(".Resources").hide();
     $(".Classes").hide();
     $("#classBut").click(function(){
       $(".Dashboard").hide();
       $(".Resources").hide();
       $(".Classes").show();
+      $(".Learning").hide();
       $("#classBut").addClass("DashboardOption")
+
       $("#dashBut").removeClass("DashboardOption")
       $("#dashBut").addClass("EachOptions")
       $("#resBut").removeClass("DashboardOption")
       $("#resBut").addClass("EachOptions")
+      $("#learnBut").removeClass("DashboardOption")
+      $("#learnBut").addClass("EachOptions")
     });
     $("#dashBut").click(function(){
       $(".Dashboard").show();
       $(".Resources").hide();
       $(".Classes").hide();
+      $(".Learning").hide();
       $("#dashBut").removeClass("EachOptions")
       $("#dashBut").addClass("DashboardOption")
 
+      $("#learnBut").removeClass("DashboardOption")
+      $("#learnBut").addClass("EachOptions")
       $("#resBut").removeClass("DashboardOption")
       $("#resBut").addClass("EachOptions")
       $("#classBut").removeClass("DashboardOption")
@@ -27,8 +35,25 @@ $(document).ready(function(){
       $(".Resources").show();
       $(".Dashboard").hide();
       $(".Classes").hide();
+      $(".Learning").hide();
       $("#resBut").addClass("DashboardOption")
 
+      $("#learnBut").removeClass("DashboardOption")
+      $("#learnBut").addClass("EachOptions")
+      $("#dashBut").removeClass("DashboardOption")
+      $("#dashBut").addClass("EachOptions")
+      $("#classBut").removeClass("DashboardOption")
+      $("#classBut").addClass("EachOptions")
+    });
+    $("#learnBut").click(function(){
+      $(".Learning").show();
+      $(".Resources").hide();
+      $(".Dashboard").hide();
+      $(".Classes").hide();
+      $("#learnBut").addClass("DashboardOption")
+
+      $("#resBut").removeClass("DashboardOption")
+      $("#resBut").addClass("EachOptions")
       $("#dashBut").removeClass("DashboardOption")
       $("#dashBut").addClass("EachOptions")
       $("#classBut").removeClass("DashboardOption")
