@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <div  class="main">
@@ -21,13 +23,13 @@
                 
             </div>
             <div class="options">
-                <p class="DashboardOption"><i class="fa fa-columns" aria-hidden="true" style="color: #7291f5; padding-right: 3vh;"></i>
+                <p class="DashboardOption" id="dashBut"><i class="fa fa-columns" aria-hidden="true"></i>
                     Dashboard</p>
-                <p class="EachOptions"><i class="far fa-folder" style="padding-right: 3vh;"></i>Classes</p>
-                <p class="EachOptions"><i class="fal fa-book-alt" style="padding-right: 3vh;"></i>Resources</p>
-                <p class="EachOptions"><i class="fal fa-calendar" style="padding-right: 3vh;"></i>Learning plan</p>
-                <p class="EachOptions"><i class="fal fa-comment-alt" style="padding-right: 3vh;"></i>Chat</p>
-                <p class="EachOptions"><i class="fal fa-edit" style="padding-right: 3vh;"></i>Settings</p>
+                <p class="EachOptions" id="classBut"><i class="far fa-folder"></i>Classes</p>
+                <p class="EachOptions"><i class="fal fa-book-alt"></i>Resources</p>
+                <p class="EachOptions"><i class="fal fa-calendar"></i>Learning plan</p>
+                <p class="EachOptions"><i class="fal fa-comment-alt"></i>Chat</p>
+                <p class="EachOptions"><i class="fal fa-edit"></i>Settings</p>
             </div>
             <div class="LeftBottom">
                 <div class="LeftBottomImg">
@@ -45,7 +47,8 @@
         <div class="middle">
             <div class="header">
                 <div style="position: absolute; margin-left: 2vw; margin-top: 4vh;">
-                    <h4>Dashboard</h4>
+                    <h4 class="Dashboard">Dashboard</h4>
+                    <h4 class="Classes">Classes</h4>
                 </div>
                 <div style="float: right;"><i class="fas fa-search" style="color: #7b97f5; background: #e5e9f9; padding: 0.7vw; margin-top: 3vh; border-radius: 10px;"></i>
                     <p style="float: left; color: #bcbccc; margin-top: 4.5vh; font-size: small; font-weight: 600; margin-right: 1vw;">20 Sep 2019, Friday</p>
@@ -59,7 +62,7 @@
                     </div>
                     <img class="TopBoxImg" src="Vector1.png" alt="">
                 </div>
-                <div class="middleBox">
+                <div class="middleBox Dashboard">
                     <div class="LeftBox">
                         <div class="LeftBoxTop">
                             <p style="float: left; font-size: 2vh;"><b>Latest results</b></p>
@@ -86,6 +89,68 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="middleBox Classes">
+                    <div class="LeftBox2">
+                        <div class="LeftBoxTop">
+                            <p style="float: left; font-size: 2vh;"><b>Subjects</b></p>
+                            <div style="float: right;">
+                                <p style="float: left; margin-right: 1vw; font-size: small;">More</p>
+                                <i class="fas fa-long-arrow-alt-right" style="float: right; font-size: small; cursor: pointer;"></i>
+                            </div>
+                        </div>
+                        <div style="margin-top: 2vh; width: 60vw;">
+                            <div class="LeftBoxBottom2">
+                                <div>
+                                    <div class="BoxIcon1"><h5 style="margin-top: 2vh; color: white;">B2</h5></div>
+                                </div>
+                                <div>
+                                    <p style="margin-top: 2vh;"><b>English</b></p>
+                                </div>
+                            </div>
+                            <div class="LeftBoxBottom3">
+                                <div>
+                                    <div class="BoxIcon2"><h5 style="margin-top: 2vh; color: white;">C1</h5></div>
+                                </div>
+                                <div>
+                                    <p style="margin-top: 2vh;"><b>Spanish</b></p>
+                                </div>
+                            </div>
+                            <div class="LeftBoxBottom4" >
+                                <div>
+                                    <div class="BoxIcon3"><h5 style="margin-top: 2vh; color: white;">C2</h5></div>
+                                </div>
+                                <div>
+                                    <p style="margin-top: 2vh;"><b>Business</b></p>
+                                </div>
+                            </div>
+                            <div class="LeftBoxBottom5">
+                                <div>
+                                    <div class="BoxIcon4"><h5 style="margin-top: 2vh; color: white;">A2</h5></div>
+                                </div>
+                                <div>
+                                    <p style="margin-top: 2vh;"><b>Education</b></p>
+                                </div>
+                            </div>
+                            <div class="LeftBoxBottom6">
+                                <div>
+                                    <div class="BoxIcon5"><h5 style="margin-top: 2vh; color: white;">A3</h5></div>
+                                </div>
+                                <div>
+                                    <p style="margin-top: 2vh;"><b>Economics</b></p>
+                                </div>
+                            </div>
+                            <div class="LeftBoxBottom7">
+                                <div>
+                                    <div class="BoxIcon6"><h5 style="margin-top: 2vh; color: white;">A4</h5></div>
+                                </div>
+                                <div>
+                                    <p style="margin-top: 2vh;"><b>Social</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
             </div>
             <div class="footer">
@@ -95,7 +160,7 @@
                 <div class="courseBoxes">
                     <div class="course1">
                         <div>
-                            <div style="background: #5a5ab2; width: 3vw; height: 6vh; float: left; border-radius: 10px; text-align: center; margin-left: 1vw; margin-top: 2vh;"><h5 style="margin-top: 2vh; color: white;">B2</h5></div>
+                            <div style="background: #5a5ab2; width: 3vw; height: 6vh; float: left; border-radius: 10px; text-align: center; margin-left: 1vw; margin-top: 2vh;"><h5 style="margin-top: 2vh; color: white;">B4</h5></div>
                         </div>
                         <div>
                             <p class="courseBox1">Business English<br><b style="color: white;">Grammar</b></p>
@@ -120,6 +185,14 @@
                 </div>
             </div>
         </div>
+
+        
+
+
+
+
+
+
         <div class="right">
             <div class="rightTop">
                 <h4 style="float: left;">Logout</h4>

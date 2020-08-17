@@ -100,6 +100,13 @@
     background: white;
     border-radius: 15px;
 }
+.LeftBox2{
+    float: left;
+    height: 45vh;
+    width: 57vw;
+    background: white;
+    border-radius: 15px;
+}
 .LeftBoxTop{
     padding: 3vh;
 }
@@ -112,6 +119,248 @@
     padding: 3vh 0vh 2vh 0vh;
     float: left;
     border-bottom: 1px #f4f4f7 solid;
+}
+.LeftBoxBottom1{
+    font-size: small !important;
+    margin-top: 1.5vh;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 1.55vw;
+    width: 26vw;
+    font-size: 2vh;
+    padding: 2vh 0vh 2vh 0vh;
+    float: left;
+    cursor: pointer;
+}
+.LeftBoxBottom2{
+    background: #ffc5ae;
+    font-size: small !important;
+    margin-top: 1.5vh;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 1.55vw;
+    width: 26vw;
+    font-size: 2vh;
+    padding: 2vh 0vh 2vh 0vh;
+    float: left;
+    cursor: pointer;
+}
+.LeftBoxBottom2:hover{
+    background: rgb(236, 236, 236);
+    color: white;
+    transition: 0.5s;
+}
+.LeftBoxBottom2 p{
+    color: #eb9877;
+}
+.LeftBoxBottom2:hover p{
+    color: white;
+    transition: 0.5s;
+}
+.BoxIcon1{
+    background: #b2735a; 
+    width: 3vw; 
+    height: 6vh; 
+    float: left; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin-left: 1vw;
+}
+.LeftBoxBottom2:hover .BoxIcon1{
+    background: rgb(158, 158, 158);
+    transition: 0.5s;
+}
+.LeftBoxBottom3{
+    background: #a7a7ff;
+    font-size: small !important;
+    margin-top: 1.5vh;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 1.55vw;
+    width: 26vw;
+    font-size: 2vh;
+    padding: 2vh 0vh 2vh 0vh;
+    float: left;
+    cursor: pointer;
+}
+.LeftBoxBottom3:hover{
+    background: rgb(236, 236, 236);
+    color: white;
+    transition: 0.5s;
+}
+.LeftBoxBottom3 p{
+    color: #7979eb;
+}
+.LeftBoxBottom3:hover p{
+    color: white;
+    transition: 0.5s;
+}
+.BoxIcon2{
+    background: #5a5ab2; 
+    width: 3vw; 
+    height: 6vh; 
+    float: left; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin-left: 1vw;
+}
+.LeftBoxBottom3:hover .BoxIcon2{
+    background: rgb(158, 158, 158);
+    transition: 0.5s;
+}
+
+
+.LeftBoxBottom4{
+    background: #c1abff;;
+    font-size: small !important;
+    margin-top: 1.5vh;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 1.55vw;
+    width: 26vw;
+    font-size: 2vh;
+    padding: 2vh 0vh 2vh 0vh;
+    float: left;
+    cursor: pointer;
+}
+.LeftBoxBottom4:hover{
+    background: rgb(236, 236, 236);
+    color: white;
+    transition: 0.5s;
+}
+.LeftBoxBottom4 p{
+    color: #9477e6;
+}
+.LeftBoxBottom4:hover p{
+    color: white;
+    transition: 0.5s;
+}
+.BoxIcon3{
+    background: #725ab2; 
+    width: 3vw; 
+    height: 6vh; 
+    float: left; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin-left: 1vw;
+}
+.LeftBoxBottom4:hover .BoxIcon3{
+    background: rgb(158, 158, 158);
+    transition: 0.5s;
+}
+.LeftBoxBottom5{
+    background: #eda5ff;;
+    font-size: small !important;
+    margin-top: 1.5vh;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 1.55vw;
+    width: 26vw;
+    font-size: 2vh;
+    padding: 2vh 0vh 2vh 0vh;
+    float: left;
+    cursor: pointer;
+}
+.LeftBoxBottom5:hover{
+    background: rgb(236, 236, 236);
+    color: white;
+    transition: 0.5s;
+}
+.LeftBoxBottom5 p{
+    color: #d67aec;
+}
+.LeftBoxBottom5:hover p{
+    color: white;
+    transition: 0.5s;
+}
+.BoxIcon4{
+    background: #a05ab2; 
+    width: 3vw; 
+    height: 6vh; 
+    float: left; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin-left: 1vw;
+}
+.LeftBoxBottom5:hover .BoxIcon4{
+    background: rgb(158, 158, 158);
+    transition: 0.5s;
+}
+.LeftBoxBottom6{
+    background: #ffa6a6;;
+    font-size: small !important;
+    margin-top: 1.5vh;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 1.55vw;
+    width: 26vw;
+    font-size: 2vh;
+    padding: 2vh 0vh 2vh 0vh;
+    float: left;
+    cursor: pointer;
+}
+.LeftBoxBottom6:hover{
+    background: rgb(236, 236, 236);
+    color: white;
+    transition: 0.5s;
+}
+.LeftBoxBottom6 p{
+    color: #e77777;
+}
+.LeftBoxBottom6:hover p{
+    color: white;
+    transition: 0.5s;
+}
+.BoxIcon5{
+    background: #b25a5a; 
+    width: 3vw; 
+    height: 6vh; 
+    float: left; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin-left: 1vw;
+}
+.LeftBoxBottom6:hover .BoxIcon5{
+    background: rgb(158, 158, 158);
+    transition: 0.5s;
+}
+.LeftBoxBottom7{
+    background: #a6c2ff;;
+    font-size: small !important;
+    margin-top: 1.5vh;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 1.55vw;
+    width: 26vw;
+    font-size: 2vh;
+    padding: 2vh 0vh 2vh 0vh;
+    float: left;
+    cursor: pointer;
+}
+.LeftBoxBottom7:hover{
+    background: rgb(236, 236, 236);
+    color: white;
+    transition: 0.5s;
+}
+.LeftBoxBottom7 p{
+    color: #779ee7;
+}
+.LeftBoxBottom7:hover p{
+    color: white;
+    transition: 0.5s;
+}
+.BoxIcon6{
+    background: #5a6ab2; 
+    width: 3vw; 
+    height: 6vh; 
+    float: left; 
+    border-radius: 10px; 
+    text-align: center; 
+    margin-left: 1vw;
+}
+.LeftBoxBottom7:hover .BoxIcon6{
+    background: rgb(158, 158, 158);
+    transition: 0.5s;
 }
 .lineDivison{
     font-size: small !important;
@@ -204,6 +453,9 @@
     color: #c4c4c6;
     cursor: pointer;
 }
+.EachOptions i{
+    padding-right: 3vh;
+}
 .EachOptions:hover{
     font-weight: bold;
     color: black;
@@ -217,6 +469,11 @@
     font-weight: bold;
     color: black;
     border-right: #7291f5 solid;
+}
+.DashboardOption i{
+    color: #7291f5;
+    padding-right: 3vh;
+    cursor: pointer;
 }
 .LeftBottom{
     float: left;
