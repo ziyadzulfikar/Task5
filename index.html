@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="iao-alert.css" rel="stylesheet">
+    <script src="iao-alert.jquery.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
@@ -28,8 +30,8 @@
                 <p class="EachOptions" id="classBut"><i class="far fa-folder"></i>Classes</p>
                 <p class="EachOptions" id="resBut"><i class="fal fa-book-alt"></i>Resources</p>
                 <p class="EachOptions" id="learnBut"><i class="fal fa-calendar"></i>Learning plan</p>
-                <p class="EachOptions"><i class="fal fa-comment-alt"></i>Chat</p>
-                <p class="EachOptions"><i class="fal fa-edit"></i>Settings</p>
+                <p class="EachOptions" onclick="chat()"><i class="fal fa-comment-alt"></i>Chat</p>
+                <p class="EachOptions" onclick="settings()"><i class="fal fa-edit"></i>Settings</p>
             </div>
             <div class="LeftBottom">
                 <div class="LeftBottomImg">
@@ -42,7 +44,6 @@
                     </div>
                 </div>
             </div>
-            
         </div>
         <div class="middle">
             <div class="header">
@@ -225,13 +226,6 @@
                 </div>
             </div>
         </div>
-
-        
-
-
-
-
-
 
         <div class="right">
             <div class="rightTop">

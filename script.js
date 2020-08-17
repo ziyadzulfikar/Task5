@@ -60,3 +60,93 @@ $(document).ready(function(){
       $("#classBut").addClass("EachOptions")
     });
   });
+
+  function chat(){
+    $.iaoAlert({
+
+      // default message
+      msg: "Sorry!! This site is under Construction",
+    
+      // or 'success', 'error', 'warning'
+      type: "error",
+    
+      // or dark
+      mode: "dark",
+    
+      // auto hide
+      autoHide: true,
+    
+      // timeout in milliseconds
+      alertTime: "3000",
+    
+      // fade animation speed
+      fadeTime: "500",
+    
+      // shows close button
+      closeButton: true,
+    
+      // close on click
+      closeOnClick: false,
+    
+      // custom position
+      position: 'top-right',
+    
+      // fade on hover
+      fadeOnHover: true,
+    
+      // rounded corners
+      roundedCorner: false,
+    
+      // z-index
+      zIndex: '999',
+    
+      // additional CSS class(es)
+      alertClass: ''
+    
+    })
+  }
+
+  function settings(){
+    $.iaoAlert({
+
+      // default message
+      msg: "Sorry!! This site is under Construction",
+    
+      // or 'success', 'error', 'warning'
+      type: "error",
+    
+      // or dark
+      mode: "dark",
+    
+      // auto hide
+      autoHide: true,
+    
+      // timeout in milliseconds
+      alertTime: "3000",
+    
+      // fade animation speed
+      fadeTime: "500",
+    
+      // shows close button
+      closeButton: true,
+    
+      // close on click
+      closeOnClick: false,
+    
+      // custom position
+      position: 'top-right',
+    
+      // fade on hover
+      fadeOnHover: true,
+    
+      // rounded corners
+      roundedCorner: false,
+    
+      // z-index
+      zIndex: '999',
+    
+      // additional CSS class(es)
+      alertClass: ''
+    
+    })
+  }
